@@ -2,7 +2,6 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chethancr13.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -30,6 +29,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prebuild": "tsc --noEmit",
+    "vercel-build": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -58,7 +59,7 @@
     "gh-pages": "^6.3.0"
   },
   "engines": {
-    "node": "24.x",
-    "npm": ">=10.0.0"
+    "node": ">=18",
+    "npm": ">=8"
   }
 }
