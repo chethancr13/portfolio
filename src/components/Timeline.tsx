@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faTrophy, faUsers, faUserTie } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -16,50 +16,62 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faCode} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Open Source Contributor</h3>
+            <h4 className="vertical-timeline-element-subtitle">Holopin</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Contributing to open source projects, collaborating with the developer community, and building innovative solutions through code contributions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Ongoing"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faCode} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">GitHub Open Source Projects</h3>
+            <h4 className="vertical-timeline-element-subtitle">Various Projects</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Actively contributing to multiple open source projects on GitHub, working on bug fixes, feature implementations, and code improvements.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Achievement"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faTrophy} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Google Cloud Arcade Winner</h3>
+            <h4 className="vertical-timeline-element-subtitle">Novice Category - Cloud Development</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Winner in the Google Cloud Arcade competition (Novice category) for cloud development using Looker Studio and Google Cloud Platform. Demonstrated expertise in data visualization and cloud-based solutions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="Various Events"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faUsers} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Hackathon Participant</h3>
+            <h4 className="vertical-timeline-element-subtitle">Multiple Hackathons</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Actively participating in various hackathons, collaborating with teams to build innovative solutions, solve real-world problems, and enhance technical skills through competitive programming and development challenges.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="College"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faUserTie} />}
+          >
+            <h3 className="vertical-timeline-element-title">Tech Core Member</h3>
+            <h4 className="vertical-timeline-element-subtitle">NullPoint Club - KS Institute Of Technology</h4>
+            <p>
+              Core member of NullPoint club, organizing hackathon events, managing tech projects, and fostering a collaborative environment for technology enthusiasts at KS Institute Of Technology.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
