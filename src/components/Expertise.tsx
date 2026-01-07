@@ -21,11 +21,10 @@ const labelsSecond = [
 ];
 
 const labelsThird = [
-    "Figma",
-    "Sketch",
-    "Waterfall Model",
-    "Canva",
-    "Adobe Photoshop"
+    "Deep Learning",
+    "NLP",
+    "Docker",
+    "Neural Networks"
 ];
 
 function Expertise() {
@@ -60,8 +59,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>UI/UX Designer</h3>
-                    <p>I create intuitive and visually appealing user interfaces that enhance user experience. Combining design principles with modern tools to deliver beautiful and functional designs.</p>
+                    <h3>Deep Learning &amp; NLP</h3>
+                    <p>I design and deploy deep learning models and neural network architectures, and build NLP systems. Experienced in model optimization, training at scale, and containerized deployments using Docker.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
