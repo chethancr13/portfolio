@@ -19,17 +19,17 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/chethancr13/Lane-Traking-Project" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="Lane Tracking Project" width="100%"/></a>
                 <a href="https://github.com/chethancr13/Lane-Traking-Project" target="_blank" rel="noreferrer"><h2>Lane Tracking Project</h2></a>
-                <p>Developed a computer vision project for autonomous lane detection and tracking using Python, OpenCV, and machine learning techniques. Implements real-time lane detection algorithms for autonomous vehicle applications.</p>
+                <p>Developed a computer vision project for autonomous lane detection and tracking using Python and OpenCV. Built data collection and preprocessing pipelines to support real-time inference at the edge.</p>
             </div>
             <div className="project">
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="iStocks AI/ML Stock Prediction" width="100%"/></a>
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>iStocks - AI/ML Stock Prediction System</h2></a>
-                <p>Built an intelligent stock market prediction and management system using AI/ML techniques. Leverages machine learning models to analyze market trends, predict stock prices, and provide data-driven investment insights for better portfolio management.</p>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="iStocks Data Pipeline" width="100%"/></a>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>iStocks - Data Pipeline &amp; Analytics System</h2></a>
+                <p>Built data pipelines and analytics for stock market ingestion, transformation, and feature engineering. Uses Airflow, Spark, and SQL for scalable batch processing, storage, and reporting.</p>
             </div>
             <div className="project">
                 <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="Intrusion Network Detection" width="100%"/></a>
                 <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>Intrusion Network Detection (IDS)</h2></a>
-                <p>Developed an Intrusion Detection System (IDS) using machine learning algorithms to identify and prevent network security threats. Implemented real-time monitoring and anomaly detection capabilities to protect network infrastructure from malicious activities.</p>
+                <p>Developed an Intrusion Detection System (IDS) using streaming data pipelines and anomaly detection. Implemented real-time log ingestion, feature extraction, and alerting to protect network infrastructure.</p>
             </div>
         </div>
     </div>

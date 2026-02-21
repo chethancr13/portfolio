@@ -6,25 +6,26 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "Python",
-    "Scikit-learn",
-    "NumPy",
-    "TensorFlow"
+    "PostgreSQL",
+    "MySQL",
+    "Snowflake",
+    "BigQuery"
 ];
 
 const labelsSecond = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React.js",
-    "Node.js"
+    "Python",
+    "SQL",
+    "PySpark",
+    "Pandas",
+    "Airflow"
 ];
 
 const labelsThird = [
-    "Deep Learning",
-    "NLP",
-    "Docker",
-    "Neural Networks"
+    "Kafka",
+    "Flink",
+    "Spark Streaming",
+    "Debezium",
+    "Docker"
 ];
 
 function Expertise() {
@@ -35,8 +36,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>Machine Learning Developer</h3>
-                    <p>I design, build, and deploy scalable machine learning models that solve real-world problems. Skilled in Deep Learning, Natural Language Processing (NLP), and various ML frameworks to create intelligent solutions.</p>
+                    <h3>Data Engineering</h3>
+                    <p>I design, build, and maintain scalable data pipelines and systems for reliable data processing, storage, and analytics. Experienced in ETL, data modeling, batch and streaming architectures, and database optimization.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -59,8 +60,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Deep Learning &amp; NLP</h3>
-                    <p>I design and deploy deep learning models and neural network architectures, and build NLP systems. Experienced in model optimization, training at scale, and containerized deployments using Docker.</p>
+                    <h3>Streaming &amp; Orchestration</h3>
+                    <p>I design and operate streaming data platforms and orchestration workflows. Experienced with Kafka, Flink, Spark Streaming, and Airflow to build reliable real-time and scheduled pipelines.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

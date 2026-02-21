@@ -20,7 +20,7 @@ function Main() {
             <a href="https://www.behance.net/chethanr4" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faBehance} /></a>
           </div>
           <h1>Chethan R</h1>
-          <p>Machine Learning Engineer</p>
+          <p>Data Engineer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/chethancr13" target="_blank" rel="noreferrer"><GitHubIcon/></a>
