@@ -21,9 +21,9 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faCode} />}
           >
             <h3 className="vertical-timeline-element-title">Open Source Contributor</h3>
-            <h4 className="vertical-timeline-element-subtitle">Holopin</h4>
+            <h4 className="vertical-timeline-element-subtitle">GitHub</h4>
             <p>
-              Contributing to open source projects, collaborating with the developer community, and building innovative solutions through code contributions.
+              Contributing to open source projects and collaborating through pull requests, code reviews, and issue tracking.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -32,10 +32,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faCode} />}
           >
-            <h3 className="vertical-timeline-element-title">GitHub Open Source Projects</h3>
-            <h4 className="vertical-timeline-element-subtitle">Various Projects</h4>
+            <h3 className="vertical-timeline-element-title">Citizen Scientist – AWG (OSDR)</h3>
+            <h4 className="vertical-timeline-element-subtitle">NASA Open Science Data Repository</h4>
             <p>
-              Actively contributing to multiple open source projects on GitHub, working on bug fixes, feature implementations, and code improvements.
+              Contributing as part of the Analysis Working Group by analyzing open datasets, validating results, and collaborating with a global community of citizen scientists.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

@@ -2,8 +2,6 @@ import React from "react";
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -12,24 +10,19 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="High-Performance Kernel Optimizer" width="100%"/></a>
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>High-Performance Kernel Optimizer</h2></a>
-                <p>Designed and implemented a high-performance kernel optimizer that improves compute efficiency through vectorization, cache-aware algorithms, and low-level optimizations. Includes benchmarking and profiling results — see LinkedIn for details.</p>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="E-Commerce Sales Data Warehouse & Analytics Pipeline" width="100%"/></a>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>E-Commerce Sales Data Warehouse &amp; Analytics Pipeline</h2></a>
+                <p>Designed a star schema (5 dimensions, 2 facts) and implemented incremental loads with SCD Type 2 for historical tracking. Built 12+ Airflow DAGs for automated ETL and reduced query time by ~65% via indexing and partitioning strategies.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/chethancr13/Lane-Traking-Project" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="Lane Tracking Project" width="100%"/></a>
-                <a href="https://github.com/chethancr13/Lane-Traking-Project" target="_blank" rel="noreferrer"><h2>Lane Tracking Project</h2></a>
-                <p>Developed a computer vision project for autonomous lane detection and tracking using Python and OpenCV. Built data collection and preprocessing pipelines to support real-time inference at the edge.</p>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="Data Lakehouse on Cloud (Medallion Architecture)" width="100%"/></a>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>Data Lakehouse on Cloud (Medallion Architecture)</h2></a>
+                <p>Built Bronze/Silver/Gold layers with PySpark (deduplication, schema enforcement, SCD Type 2) and dbt models with tests, docs, and lineage. Orchestrated batch pipelines with Airflow (retries + alerts) and enforced data quality checks and contracts.</p>
             </div>
             <div className="project">
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="iStocks Data Pipeline" width="100%"/></a>
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>iStocks - Data Pipeline &amp; Analytics System</h2></a>
-                <p>Built data pipelines and analytics for stock market ingestion, transformation, and feature engineering. Uses Airflow, Spark, and SQL for scalable batch processing, storage, and reporting.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="Intrusion Network Detection" width="100%"/></a>
-                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>Intrusion Network Detection (IDS)</h2></a>
-                <p>Developed an Intrusion Detection System (IDS) using streaming data pipelines and anomaly detection. Implemented real-time log ingestion, feature extraction, and alerting to protect network infrastructure.</p>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="More projects on LinkedIn" width="100%"/></a>
+                <a href="https://www.linkedin.com/in/chethancr13/details/projects/" target="_blank" rel="noreferrer"><h2>More Projects</h2></a>
+                <p>More end-to-end data engineering work (pipelines, modeling, and analytics) is available on my LinkedIn projects section.</p>
             </div>
         </div>
     </div>

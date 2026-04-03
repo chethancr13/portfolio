@@ -6,26 +6,26 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "PostgreSQL",
-    "MySQL",
-    "Snowflake",
-    "BigQuery"
+    "SQL",
+    "Data Modeling",
+    "Star Schema",
+    "SCD Type 2"
 ];
 
 const labelsSecond = [
+    "dbt",
     "Python",
-    "SQL",
-    "PySpark",
-    "Pandas",
-    "Airflow"
+    "Airflow",
+    "Incremental Loads",
+    "Data Quality"
 ];
 
 const labelsThird = [
-    "Kafka",
-    "Flink",
-    "Spark Streaming",
-    "Debezium",
-    "Docker"
+    "Azure",
+    "Databricks",
+    "Azure Data Factory",
+    "Apache Spark",
+    "Delta Lake"
 ];
 
 function Expertise() {
@@ -36,8 +36,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>Data Engineering</h3>
-                    <p>I design, build, and maintain scalable data pipelines and systems for reliable data processing, storage, and analytics. Experienced in ETL, data modeling, batch and streaming architectures, and database optimization.</p>
+                    <h3>Data Modeling &amp; Warehousing</h3>
+                    <p>I model analytics-ready datasets with dimensional modeling, SCD strategies, and query-optimized schemas. Focused on reliability, lineage, and performance for BI and downstream consumers.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -48,8 +48,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Web Development</h3>
-                    <p>I build modern, responsive web applications using cutting-edge technologies. From frontend interfaces to backend APIs, I create full-stack solutions that deliver exceptional user experiences.</p>
+                    <h3>ELT, dbt &amp; Orchestration</h3>
+                    <p>I build maintainable transformation layers with dbt (tests, documentation, and lineage) and orchestrate dependable pipelines with Airflow. I care about clean contracts, incremental patterns, and production-ready monitoring.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -60,8 +60,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Streaming &amp; Orchestration</h3>
-                    <p>I design and operate streaming data platforms and orchestration workflows. Experienced with Kafka, Flink, Spark Streaming, and Airflow to build reliable real-time and scheduled pipelines.</p>
+                    <h3>Azure &amp; Spark Platform</h3>
+                    <p>I work on lakehouse-style architectures using Spark for scalable processing, and Azure services for integration and deployment. Comfortable building batch pipelines and modeling curated layers for analytics.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
